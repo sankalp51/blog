@@ -1,5 +1,5 @@
 import { posts } from "#site/content";
-import PostItem from "@/components/PostItem";
+import PostItem from "@/src/components/PostItem";
 
 export default async function page() {
   const displayPosts = posts;
